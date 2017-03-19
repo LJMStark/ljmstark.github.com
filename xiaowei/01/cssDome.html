@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>CSS浮动float属性</title>
+	<style type="text/css">
+        .main {        
+           float: right;       
+           background-color: red;
+           width: 100%;   
+        }  
+ 		.sub {       
+           float: right;        
+           background-color: green;
+           width: 190px;        
+           margin-left: -100%;  
+           position: relative;
+           left:-190px;  
+        }   
+        .extra {        
+             float: left;        
+             background-color: blue;
+             width: 190px;        
+             margin-left: -190px;
+             position: relative;
+             right: -230px;   
+        }
+ 		#bd {        
+          padding: 0 230px 0 190px;   
+        }
+ 		#ft {
+			float: left;
+			background-color: green;
+ 		}
+    </style>
+</head>
+<body>
+	<div id="page">    
+      <div id="hd"></div>    
+         <div id="bd">        
+              <div class="main">main</div>        
+              <div class="sub">sub</div>        
+              <div class="extra">extra</div>    
+         </div>   
+      <!-- <div id="ft"></div>footer</div> -->
+</body>
+</html>
