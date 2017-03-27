@@ -10,3 +10,19 @@ section {
 	border-bottom: 3px solid #8e8e8e;
 	border-right: 3px solid #8e8e8e;
 } 
+.header {
+	height: 200px;
+	width: 100%;
+	background-color: #333;
+}
+.text-right {
+	float: right;
+}
+ul.menu > li {
+	height: 50px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+	border-bottom:4px solid transparent;
+}
