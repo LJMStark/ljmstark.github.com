@@ -1,3 +1,12 @@
-.one  {
+body {
+	background-color: #eee;
 }
-
+section {
+	margin:30px 30px;
+	background-color: #fff;
+	padding: 20px;
+	border-top: 1px solid #e3e3e3;
+	border-left: 1px solid #e3e3e3;
+	border-bottom: 3px solid #8e8e8e;
+	border-right: 3px solid #8e8e8e;
+} 
